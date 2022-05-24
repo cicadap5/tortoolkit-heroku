@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
+        API_HASH = "8e0588044fcf7672cfe1341185bfc94c"
+        API_ID = 11004381
         BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "https://tortoolkit1bot.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-715582209]
+        OWNER_ID = 1260704822
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = https://net.ashishtandi220.workers.dev/0:
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,11 +36,17 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "mongodb+srv://ashishtandi:ashishtandi@cluster0.p2gli.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
+        # MEGA CONFIG
+        MEGA_ENABLE = True
+        MEGA_API = "KW4QCZqZ"
+        MEGA_UNAME = ashishtandi220@gmail.com
+        MEGA_PASS = ashishkumar
+
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
 
@@ -94,7 +100,6 @@ except:
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
         
-
 
 
 
